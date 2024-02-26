@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            color: #333;
+        }
+
+        p {
+            text-transform: lowercase;
+            color: #666;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                text-transform: capitalize;
+            }
+
+            p {
+                text-transform: none;
+            }
+        }
+    </style>
+    <title>CSS Text Transform Example</title>
+</head>
+<body>
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph with some text.</p>
+</body>
+</html>
